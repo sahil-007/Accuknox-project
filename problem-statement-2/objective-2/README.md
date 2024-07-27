@@ -7,7 +7,7 @@ This repository contains a script for automating the backup of a specified direc
 
 ## Script Details
 
-- **File:** `backup_script.sh`
+- **File:** `backup.sh`
 - **Description:** A bash script to sync a local directory with an S3 bucket and log the backup process.
 
 ## Usage
