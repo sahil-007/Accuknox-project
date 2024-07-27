@@ -1,7 +1,5 @@
 # System Health Monitoring Script
 
-![System Health Status](https://img.shields.io/badge/status-active-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue)
 
 ## Overview
 
@@ -28,7 +26,7 @@ This script is designed to monitor the health of a Linux system by continuously 
 
 3. **Run the script:**
     ```bash
-    ./system_health_monitor.sh
+    ./syshelth.sh
     ```
 
 4. **Check the log file:**
