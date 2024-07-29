@@ -47,3 +47,26 @@ EXPOSE 4499
 # Define the command to run the script
 CMD ["./wisecow.sh"]
 ```
+### Building the Docker Image
+1.Clone the repository:  ```git clone https://github.com/nyrahul/wisecow```
+
+2. Build the Docker image:
+```
+docker build -t <your-dockerhub-username>/wisecow-docker:latest .
+```
+### Running the Docker Container
+1.Start the container:
+```
+docker run -d -p 4499:4499 <your-dockerhub-username>/wisecow-docker:latest
+```
+### Pushing to Docker Hub
+-**To push the Docker image to Docker Hub:**
+
+1.Log in to Docker Hub:
+```
+docker login
+```
+2.Push the Docker image:
+```
+docker push <your-dockerhub-username>/wisecow-docker:latest
+```
