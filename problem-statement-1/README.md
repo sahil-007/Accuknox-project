@@ -19,7 +19,7 @@ The Wisecow application has been containerized using Docker. Below are the instr
 ### Dockerfile
 
 The `Dockerfile` included in this repository defines the environment for the Wisecow application. Here's a brief overview:
-
+```
 # Use an official Debian base image
 FROM debian:bullseye-slim
 
@@ -46,3 +46,4 @@ EXPOSE 4499
 
 # Define the command to run the script
 CMD ["./wisecow.sh"]
+```
