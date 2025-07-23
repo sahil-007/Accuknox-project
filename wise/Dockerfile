@@ -20,7 +20,7 @@ COPY wisecow.sh .
 RUN chmod +x wisecow.sh
 
 # Expose the port the script will listen on
-EXPOSE 9988
+EXPOSE 4499
 
 # Define the command to run the script
 CMD ["./wisecow.sh"]
