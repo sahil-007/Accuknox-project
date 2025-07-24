@@ -28,7 +28,7 @@ jobs:
         context: ./wise
         file: ./wise/Dockerfile
         push: true
-        tags: sahiltk07/wisecow-docker
+        tags: sahiltk07/wisecow-docker:latest
 
     - name: Set up kubeconfig
       run: |
