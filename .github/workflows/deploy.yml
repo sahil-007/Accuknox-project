@@ -25,9 +25,10 @@ jobs:
     - name: Build and Push Docker image
       uses: docker/build-push-action@v5
       with:
-        context: .
+        context: ./wise
+        file: ./wise/Dockerfile
         push: true
-        tags: sahiltk07/wisecow:latest
+        tags: sahil369/wisecow-new:latest
 
     - name: Set up kubeconfig
       run: |
