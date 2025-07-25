@@ -1,0 +1,6 @@
+Add the following line to your /etc/hosts file:
+
+<your-minikube-ip>   wisecow.local
+
+Get IP using:
+minikube ip
